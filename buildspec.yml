@@ -19,7 +19,7 @@ phases:
       - chmod +x run.sh > /dev/null 2>&1
       - ls
       - mvn --version
-      - $RUN_SONARQUBE sh run.sh 2>&1 
+      - source run.sh 2>&1 
     
 artifacts:
   files:
